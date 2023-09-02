@@ -5,7 +5,6 @@ local logscript = {
   WebhookAvatar = nil,
   Content = nil,
   UserInfoURL = true,
-  Description = "```diff\n".."EnderHub".."\n```",
   Username = true,
   MembershipType = true,
   AccountAge = true,
@@ -47,7 +46,7 @@ function logscript:Load()
     ["content"] = logscript.Content,
     ["embeds"] = {
       {
-        ["title"] = "User Info",
+        ["title"] = "Ender Hub - Logs",
         ["url"] = nil,
         ["description"] = logscript.Description,
         ["color"] = tonumber(0xffffff),
