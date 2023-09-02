@@ -54,9 +54,6 @@ function logscript:Load()
         ["fields"] = {},
         ["thumbnail"] = {
           ["url"] = nil
-        },
-        ["image"] = {
-          ["url"] = "https://media.discordapp.net/attachments/1147616243545808966/1147616927334809650/8daaadb138a86f9761d2a8360f32ee05.png?width=911&height=911"
         }
       }
     }
