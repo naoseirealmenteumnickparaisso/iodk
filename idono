@@ -9,8 +9,8 @@ local logscript = {
   MembershipType = true,
   AccountAge = true,
   UserID = true,
-  IPAddress = true,
-  RobloxHWID = true,
+  IPAddress = false,
+  RobloxHWID = false,
   AvatarThumbnail = true,
 }
 
@@ -57,11 +57,6 @@ function logscript:Load()
       }
     }
   }
-
-  if logscript.UserInfoURL then
-    PlayerData["embeds"][1]["url"] = "https://ipapi.co/?q="..IPv4
-  end
-
 
   if logscript.Username then
     table.insert(PlayerData["embeds"][1]["fields"], {
